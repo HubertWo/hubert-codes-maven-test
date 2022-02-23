@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Integration tests.
  * Name of the class ends with "IT" (Integration test)
  */
-public class DummyTestIT {
+class DummyTestIT {
 
     @Test
-    void example_test1() {
+    void example_integration_test1() {
         int expected = 5;
 
         int actual = 5;
@@ -20,9 +20,9 @@ public class DummyTestIT {
     }
 
     @Test
-    void example_test2() {
-        String givenString = "This is an unit test";
-        int expectedLength = 20;
+    void example_integration_test2() {
+        String givenString = "This is an fake integration test";
+        int expectedLength = 32;
 
         int actualLength = givenString.length();
 
